@@ -1,0 +1,61 @@
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+#SearchBar {
+    width: 582px;
+    height: 44px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    top:0;
+    width:100%;
+    margin-top: 10px;
+    
+    
+}
+
+li {
+    display: inline;
+    float: right;
+    padding: 10px;
+    font-family: arial, sans-serif;
+    font-size: 13px
+}
+
+#SearchBar:hover {
+box-shadow: 0 1px 6px rgba(32,33,36,.28);
+border-color: rgba(223,225, 229,0);
+}
+
+#SignInBtn {
+    border:1px solid #4285f4;
+    background: #4285f4;
+    border-radius: 2px;
+    color: white;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+#white {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
